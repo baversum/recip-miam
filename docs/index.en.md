@@ -30,3 +30,5 @@ Welcome to my recipe notebook. Use the search bar to find a recipe by ingredient
 - [Cheese gougères](recettes/gougeres-au-fromage.md)
 - [Butternut, coconut and curry velouté](recettes/veloute-butternut-coco-curry.md)
 - [Shallot compote](recettes/compotee-d-echalotes.md)
+
+Want a local copy? All recipes can be downloaded as Markdown or standalone HTML from the [Downloads](downloads.md) page.

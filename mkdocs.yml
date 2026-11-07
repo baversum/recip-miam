@@ -41,6 +41,7 @@ plugins:
             Desserts: Desserts
             Plats: Mains
             Entrées & apéritif: Starters & appetizers
+            Téléchargements: Downloads
             Tarte poire frangipane: Pear and frangipane tart
             Placek: Placek (apple crumble brioche)
             Pancakes banane: Banana pancakes
@@ -67,6 +68,9 @@ markdown_extensions:
   - pymdownx.details
   - pymdownx.superfences
 
+extra_javascript:
+  - javascripts/recipe-export.js
+
 nav:
   - Accueil: index.md
   - Desserts:
@@ -92,3 +96,4 @@ nav:
       - Gougères au fromage: recettes/gougeres-au-fromage.md
       - Velouté butternut coco curry: recettes/veloute-butternut-coco-curry.md
       - Compotée d'échalotes: recettes/compotee-d-echalotes.md
+  - Téléchargements: downloads.md

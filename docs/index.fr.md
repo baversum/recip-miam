@@ -30,3 +30,5 @@ Bienvenue dans mon carnet de recettes. Utilise la barre de recherche pour trouve
 - [Gougères au fromage](recettes/gougeres-au-fromage.md)
 - [Velouté butternut coco curry](recettes/veloute-butternut-coco-curry.md)
 - [Compotée d'échalotes](recettes/compotee-d-echalotes.md)
+
+Besoin d'une copie locale ? Toutes les recettes sont téléchargeables en Markdown ou en HTML autonome depuis la page [Téléchargements](downloads.md).

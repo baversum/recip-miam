@@ -12,6 +12,8 @@ requirements.txt
 .github/workflows/ci.yml
 docs/
   index.fr.md / index.en.md
+  downloads.fr.md / downloads.en.md
+  javascripts/recipe-export.js
   recettes/
     tarte-poire-frangipane.fr.md / tarte-poire-frangipane.en.md
     ... (19 recipes, two files per recipe)
@@ -31,6 +33,10 @@ Each page exists in two versions: `page.fr.md` (default language, served at the 
 2. Add it to `nav:` in `mkdocs.yml` under the right category, using the language-suffix-free path (e.g. `recettes/recipe-name.md`).
 3. Add the English title to `nav_translations` (under the `locale: en` block), and a link in `docs/index.fr.md` and `docs/index.en.md`.
 4. Push: the GitHub Action builds and deploys the site automatically.
+
+## Recipe export
+
+The **Téléchargements / Downloads** page offers a client-side export tool: select recipes with checkboxes (one by one, by category, or all at once with the select all / deselect all button) and download a ZIP archive containing either the Markdown sources or standalone HTML pages. Everything runs in the browser: the ZIP is built locally (no external library), the Markdown sources are fetched from this repository on GitHub, and the recipe list is read from the site navigation at runtime, so the tool requires no maintenance when recipes are added.
 
 ## Deployment
 
