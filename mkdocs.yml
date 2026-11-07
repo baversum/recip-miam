@@ -1,0 +1,51 @@
+site_name: Recip Miam
+site_url: https://baversum.github.io/recip-miam/
+repo_url: https://github.com/baversum/recip-miam
+
+theme:
+  name: material
+  language: fr
+  palette:
+    - scheme: default
+      toggle:
+        icon: material/weather-night
+        name: Mode sombre
+      media: "(prefers-color-scheme: light)"
+    - scheme: slate
+      toggle:
+        icon: material/weather-sunny
+        name: Mode clair
+      media: "(prefers-color-scheme: dark)"
+  features:
+    - navigation.tabs
+    - navigation.top
+    - navigation.footer
+    - search.suggest
+    - search.highlight
+
+plugins:
+  - search
+  - i18n:
+      docs_structure: suffix
+      languages:
+        - locale: fr
+          default: true
+          name: Français
+          build: true
+        - locale: en
+          name: English
+          build: true
+          nav_translations:
+            Accueil: Home
+            Desserts: Desserts
+            Tarte poire frangipane: Pear and frangipane tart
+
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
+
+nav:
+  - Accueil: index.md
+  - Desserts:
+      - Tarte poire frangipane: recettes/tarte-poire-frangipane.md
