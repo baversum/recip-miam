@@ -1,8 +1,8 @@
 # Recip Miam
 
-Carnet de recettes bilingue (français / anglais), construit avec MkDocs Material et publié sur GitHub Pages.
+Bilingual (French / English) recipe collection, built with MkDocs Material and published on GitHub Pages.
 
-Site : https://baversum.github.io/recip-miam/
+Site: https://baversum.github.io/recip-miam/
 
 ## Structure
 
@@ -14,33 +14,33 @@ docs/
   index.fr.md / index.en.md
   recettes/
     tarte-poire-frangipane.fr.md / tarte-poire-frangipane.en.md
-    ... (19 recettes, deux fichiers par recette)
+    ... (19 recipes, two files per recipe)
 ```
 
-Chaque page existe en deux versions : `page.fr.md` (par défaut, servie à la racine) et `page.en.md` (servie sous `/en/`). Le sélecteur de langue apparaît automatiquement dans l'en-tête du site.
+Each page exists in two versions: `page.fr.md` (default language, served at the root) and `page.en.md` (served under `/en/`). The language switcher appears automatically in the site header.
 
-## Catégories
+## Categories
 
-- **Desserts** : tarte poire frangipane, placek, pancakes banane, confiture, brownie choco banane, banana bread avoine
-- **Plats** : poulet curry, poulet pomme cidre, one pot mexicain chorizo riz, one pot poulet basquaise, croque monsieur béchamel, frittata pomme de terre ciboule, pomme de terre au four, dahl patate crémeux, caghuse, brandade de thon
-- **Entrées & apéritif** : gougères au fromage, velouté butternut coco curry, compotée d'échalotes
+- **Desserts**: pear and frangipane tart, placek, banana pancakes, fruit jam, chocolate banana brownie, oat banana bread
+- **Mains**: coconut chicken curry, chicken with apples and cider, Mexican chorizo rice one pot, chicken basquaise one pot, croque monsieur with béchamel, potato and spring onion frittata, oven-baked stuffed potatoes, creamy potato dhal, caghuse, tuna brandade gratin
+- **Starters & appetizers**: cheese gougères, butternut and coconut velouté, shallot compote
 
-## Ajouter une recette
+## Adding a recipe
 
-1. Créer `docs/recettes/nom-de-la-recette.fr.md` et `docs/recettes/nom-de-la-recette.en.md`, avec un front matter YAML (title, category, temps, portions, tags) suivi du corps de la recette (sections numérotées, tableau d'ingrédients).
-2. L'ajouter dans `nav:` de `mkdocs.yml` sous la bonne catégorie, avec le chemin sans suffixe de langue (ex. `recettes/nom-de-la-recette.md`).
-3. Ajouter le titre anglais dans `nav_translations` (bloc `locale: en`), et un lien sur `docs/index.fr.md` et `docs/index.en.md`.
-4. Push : l'action GitHub build et déploie le site automatiquement.
+1. Create `docs/recettes/recipe-name.fr.md` and `docs/recettes/recipe-name.en.md`, with a YAML front matter (title, category, times, servings, tags) followed by the recipe body (numbered sections, ingredient table).
+2. Add it to `nav:` in `mkdocs.yml` under the right category, using the language-suffix-free path (e.g. `recettes/recipe-name.md`).
+3. Add the English title to `nav_translations` (under the `locale: en` block), and a link in `docs/index.fr.md` and `docs/index.en.md`.
+4. Push: the GitHub Action builds and deploys the site automatically.
 
-## Déploiement
+## Deployment
 
-Le workflow `.github/workflows/ci.yml` build le site et le déploie via GitHub Pages à chaque push sur `main`. Il nécessite, dans les réglages du repo : **Settings > Pages > Source : GitHub Actions**.
+The `.github/workflows/ci.yml` workflow builds the site and deploys it through GitHub Pages on every push to `main`. It requires, in the repository settings: **Settings > Pages > Source: GitHub Actions**.
 
-## Prévisualisation locale
+## Local preview
 
 ```bash
 pip install -r requirements.txt
 mkdocs serve
 ```
 
-Puis ouvrir http://localhost:8000 (le site anglais est servi sur http://localhost:8000/en/)
+Then open http://localhost:8000 (the English site is served on http://localhost:8000/en/)
