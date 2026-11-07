@@ -30,7 +30,7 @@ A dhal of red lentils and melting potatoes, bound with coconut milk. The crushed
 | Potatoes | 800 g |
 | Chicken stock | 700 ml |
 | Red lentils | 200 g |
-| Coconut milk | 400 ml |
+| Coconut milk | 200 ml |
 | Lemons | 3 (juice) |
 | Fresh coriander (cilantro) | a few sprigs |
 | Salt, pepper | to taste |

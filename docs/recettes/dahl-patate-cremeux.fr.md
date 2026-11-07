@@ -30,7 +30,7 @@ Dahl de lentilles corail et pommes de terre fondantes, lié au lait de coco. Le 
 | Pommes de terre | 800 g |
 | Bouillon de volaille | 700 ml |
 | Lentilles corail | 200 g |
-| Lait de coco | 400 ml |
+| Lait de coco | 200 ml |
 | Citrons | 3 (jus) |
 | Coriandre fraîche | quelques brins |
 | Sel, poivre | selon goût |
