@@ -15,6 +15,7 @@ Bienvenue dans mon carnet de recettes. Utilise la barre de recherche pour trouve
 
 - [Poulet curry](recettes/poulet-curry.md)
 - [Poulet pomme cidre](recettes/poulet-pomme-cidre.md)
+- [Curry de lentilles corail aux épinards](recettes/curry-lentilles-corail-epinards.md)
 - [One pot mexicain chorizo riz](recettes/one-pot-mexicain-chorizo-riz.md)
 - [One pot poulet basquaise](recettes/one-pot-poulet-basquaise.md)
 - [Croque monsieur béchamel](recettes/croque-monsieur-bechamel.md)

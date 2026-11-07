@@ -49,6 +49,7 @@ plugins:
             Banana bread avoine: Oat banana bread
             Poulet curry: Coconut chicken curry
             Poulet pomme cidre: Chicken with apples and cider
+            Curry de lentilles corail aux épinards: Red lentil and spinach curry
             One pot mexicain chorizo riz: Mexican chorizo rice one pot
             One pot poulet basquaise: Chicken basquaise one pot
             Croque monsieur béchamel: Croque monsieur with béchamel
@@ -78,6 +79,7 @@ nav:
   - Plats:
       - Poulet curry: recettes/poulet-curry.md
       - Poulet pomme cidre: recettes/poulet-pomme-cidre.md
+      - Curry de lentilles corail aux épinards: recettes/curry-lentilles-corail-epinards.md
       - One pot mexicain chorizo riz: recettes/one-pot-mexicain-chorizo-riz.md
       - One pot poulet basquaise: recettes/one-pot-poulet-basquaise.md
       - Croque monsieur béchamel: recettes/croque-monsieur-bechamel.md

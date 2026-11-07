@@ -15,6 +15,7 @@ Welcome to my recipe notebook. Use the search bar to find a recipe by ingredient
 
 - [Coconut chicken curry](recettes/poulet-curry.md)
 - [Chicken with apples and cider](recettes/poulet-pomme-cidre.md)
+- [Red lentil and spinach curry](recettes/curry-lentilles-corail-epinards.md)
 - [Mexican chorizo rice one pot](recettes/one-pot-mexicain-chorizo-riz.md)
 - [Chicken basquaise one pot](recettes/one-pot-poulet-basquaise.md)
 - [Croque monsieur with béchamel](recettes/croque-monsieur-bechamel.md)
