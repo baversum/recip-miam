@@ -38,7 +38,27 @@ plugins:
           nav_translations:
             Accueil: Home
             Desserts: Desserts
+            Plats: Mains
+            Entrées & apéritif: Starters & appetizers
             Tarte poire frangipane: Pear and frangipane tart
+            Placek: Placek (apple crumble brioche)
+            Pancakes banane: Banana pancakes
+            Confiture: Quick fruit jam (agar agar)
+            Brownie choco banane: Chocolate banana brownie
+            Banana bread avoine: Oat banana bread
+            Poulet curry: Coconut chicken curry
+            Poulet pomme cidre: Chicken with apples and cider
+            One pot mexicain chorizo riz: Mexican chorizo rice one pot
+            One pot poulet basquaise: Chicken basquaise one pot
+            Croque monsieur béchamel: Croque monsieur with béchamel
+            Frittata pomme de terre ciboule: Potato and spring onion frittata
+            Pomme de terre au four: Oven-baked stuffed potatoes
+            Dahl patate crémeux: Creamy potato dhal
+            Caghuse: Caghuse (pork, onion and prune pot roast)
+            Brandade de thon: Tuna brandade gratin
+            Gougères au fromage: Cheese gougères
+            Velouté butternut coco curry: Butternut, coconut and curry velouté
+            Compotée d'échalotes: Shallot compote
 
 markdown_extensions:
   - admonition
@@ -49,3 +69,23 @@ nav:
   - Accueil: index.md
   - Desserts:
       - Tarte poire frangipane: recettes/tarte-poire-frangipane.md
+      - Placek: recettes/placek.md
+      - Pancakes banane: recettes/pancakes-banane.md
+      - Confiture: recettes/confiture.md
+      - Brownie choco banane: recettes/brownie-choco-banane.md
+      - Banana bread avoine: recettes/banana-bread-avoine.md
+  - Plats:
+      - Poulet curry: recettes/poulet-curry.md
+      - Poulet pomme cidre: recettes/poulet-pomme-cidre.md
+      - One pot mexicain chorizo riz: recettes/one-pot-mexicain-chorizo-riz.md
+      - One pot poulet basquaise: recettes/one-pot-poulet-basquaise.md
+      - Croque monsieur béchamel: recettes/croque-monsieur-bechamel.md
+      - Frittata pomme de terre ciboule: recettes/frittata-pomme-de-terre-ciboule.md
+      - Pomme de terre au four: recettes/pomme-de-terre-au-four.md
+      - Dahl patate crémeux: recettes/dahl-patate-cremeux.md
+      - Caghuse: recettes/caghuse.md
+      - Brandade de thon: recettes/brandade-de-thon.md
+  - Entrées & apéritif:
+      - Gougères au fromage: recettes/gougeres-au-fromage.md
+      - Velouté butternut coco curry: recettes/veloute-butternut-coco-curry.md
+      - Compotée d'échalotes: recettes/compotee-d-echalotes.md
