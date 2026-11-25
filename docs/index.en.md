@@ -24,6 +24,7 @@ Welcome to my recipe notebook. Use the search bar to find a recipe by ingredient
 - [Creamy potato dhal](recettes/dahl-patate-cremeux.md)
 - [Caghuse (pork, onion and prune pot roast)](recettes/caghuse.md)
 - [Tuna brandade gratin](recettes/brandade-de-thon.md)
+- [Oven-baked pulled pork (pork shoulder)](recettes/pulled-pork-palette.md)
 
 ## Starters & appetizers
 

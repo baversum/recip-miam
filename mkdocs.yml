@@ -59,6 +59,7 @@ plugins:
             Dahl patate crémeux: Creamy potato dhal
             Caghuse: Caghuse (pork, onion and prune pot roast)
             Brandade de thon: Tuna brandade gratin
+            Pulled pork palette: Oven-baked pulled pork (pork shoulder)
             Gougères au fromage: Cheese gougères
             Velouté butternut coco curry: Butternut, coconut and curry velouté
             Compotée d'échalotes: Shallot compote
@@ -92,6 +93,7 @@ nav:
       - Dahl patate crémeux: recettes/dahl-patate-cremeux.md
       - Caghuse: recettes/caghuse.md
       - Brandade de thon: recettes/brandade-de-thon.md
+      - Pulled pork palette: recettes/pulled-pork-palette.md
   - Entrées & apéritif:
       - Gougères au fromage: recettes/gougeres-au-fromage.md
       - Velouté butternut coco curry: recettes/veloute-butternut-coco-curry.md

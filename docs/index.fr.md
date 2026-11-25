@@ -24,6 +24,7 @@ Bienvenue dans mon carnet de recettes. Utilise la barre de recherche pour trouve
 - [Dahl patate crémeux](recettes/dahl-patate-cremeux.md)
 - [Caghuse](recettes/caghuse.md)
 - [Brandade de thon](recettes/brandade-de-thon.md)
+- [Pulled pork palette](recettes/pulled-pork-palette.md)
 
 ## Entrées & apéritif
 
